@@ -1,0 +1,94 @@
+body{
+    background-image: url(/assets/doom-game-texture-wallpaper-preview.jpg);
+}
+
+.Monstersbtn {
+    width: 5fr;
+    border: 1px solid white;
+}
+
+.Weaponsbtn {
+    border: 1px solid white;
+    
+}
+.maps {
+    width: 5fr;
+    border: 1px solid white;
+}
+.cheatCodes {
+    width: 5fr;
+    border: 1px solid white;
+    scale: 0.5;
+}
+
+.MainBtns {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    transform: scale(0.5);
+    
+}
+
+.MainText {
+    text-align: center;
+    width: 900px;
+    margin-top: 75px;
+}
+
+.boxBack {
+    margin-left: 420px;
+    background-color: black;
+    position: static;
+    padding-left: 80px;
+    width: 1000px;
+    height: 800px;
+}
+.topMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: black;
+
+}
+
+.DoomWikiTopMenu {
+    margin-left: 20px;
+}
+
+.MonstersTopMenu {
+    margin-left: 80px;
+    padding: 10px;
+    border: 1px solid white;
+    color: red;
+    text-decoration: none;
+}
+
+.WeaponsTopMenu {
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    color: red;
+    text-decoration: none;
+}
+.CheatCodesTopMenu {
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    color: red;
+    text-decoration: none;
+}
+.MapsTopMenu {
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    color: red;
+    text-decoration: none;
+}
+.AboutTopMenu {
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    color: red;
+    text-decoration: none;
+}
